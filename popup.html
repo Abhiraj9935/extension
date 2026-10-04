@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <header class="header">
+      <h2>📌 Smart Site Notes</h2>
+      <span id="currentSiteBadge" class="site-badge">Detecting site...</span>
+    </header>
+
+    <main class="input-section">
+      <textarea id="noteInput" placeholder="Write a note or code snippet for this website..."></textarea>
+      <button id="saveBtn" class="btn-primary">Save Note</button>
+    </main>
+
+    <hr class="divider">
+
+    <section class="notes-section">
+      <h3>Saved Workspace Notes</h3>
+      <div id="notesContainer" class="notes-container">
+        <!-- Site columns will be generated here dynamically -->
+      </div>
+    </section>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

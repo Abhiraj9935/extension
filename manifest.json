@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "B.Tech Site Notes",
+  "version": "2.0",
+  "description": "Auto-detects website domains, organizes notes into site-specific columns, and records timestamps.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Site Notes"
+  },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ]
+}
